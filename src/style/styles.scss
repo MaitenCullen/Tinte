@@ -11,7 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+   
 }
 // body{
 //     background-color:$backgoundLight;
@@ -38,53 +38,54 @@ background-color: $backgoundLight;
 
  .switch {
     display: flex;
-    height: 100px;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: bold;
     font-family: $fontCuadrada;
     letter-spacing: 6px;
     padding-right: 3%;
+    .div-switch{
+        display: flex;
+        align-items: center;
+        label{
+          margin: 10px;
+        }
+    }
+
   }
-  
-  .switch label {
-    margin: 10px;
+  .div-logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    img{
+      width: 200px;
+      height: 200px;
+    }
   }
-  
   #light .switch label {
     color: black; //Cambiar
   }
   
   #dark .switch label {
-    color: $red;
+    color: $white;
   }
   .div-translate {
     display: flex;
     align-items: center;
-    margin-left: 2%;
+    margin-left: 20px;
     justify-content: flex-end;
   }
 
-  .switch-T{
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    &input{
-        opacity: 0;
-        width: 0;
-        height: 0;  
-    }
-  }
+
   .translateES{
     border: solid 2;
     border-color:red yellow;
     border-radius: 15%;
     background-color: transparent;
     padding: 5px;
-    margin: 3%;
-    color: $redClaro;
+    margin: 10px;
+    color: $white;
     font-family: $fontGeneric;
     font-size: 1rem;
     cursor: pointer;
@@ -95,8 +96,8 @@ background-color: $backgoundLight;
     border-radius: 15%;
     background-color: transparent;
     padding: 5px;
-    margin: 3%;
-    color: $redClaro;
+    margin: 10px;
+    color: $white;
     font-family: $fontGeneric;
     font-size: 1rem;
     cursor: pointer;

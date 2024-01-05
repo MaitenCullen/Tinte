@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { ImCross } from "react-icons/im";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const NavBar = () => {
   const theme = ''
@@ -21,7 +22,7 @@ export const NavBar = () => {
             <li><a  href='#contact'>{t('navbar.CONTACT')}</a></li>
             <li><a  href='#servicios'>{t('navbar.SERVICIOS')}</a></li>
         </ul>
-        <button className='navButton' onClick={()=> toggleMenu()}><p>Menu</p></button>
+        <button className='navButton' onClick={()=> toggleMenu()}><RxHamburgerMenu /></button>
         <div className='divMobile'>
           <ul className='mobileNavbar'>
               <li id={theme} className='clean navLink'><a  href='#skills' onClick={hideMenu}>{t('navbar.SKILLS')}</a></li>
