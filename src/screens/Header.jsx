@@ -10,10 +10,10 @@ export const Header = () => {
     <section className='homeDiv' id='home'>
     <div className='textDiv'>
       <div className='nameDiv'>
-        <h3 className='title'>{t('header.HOLA')}</h3>
+        {/* <h3 className='title'>{t('header.HOLA')}</h3>
         <h1 className='h1Name' id={theme}>Maitén</h1>
         <h2 id={theme}>Front End Developer</h2>
-        <h4 className='title'>{t("header.COTIDIANO")}</h4>
+        <h4 className='title'>{t("header.COTIDIANO")}</h4> */}
       </div>
     <div className='navFooter'>
         <NavBar/>
