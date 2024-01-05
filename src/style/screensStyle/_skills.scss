@@ -1,0 +1,64 @@
+.skillsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h1 {
+        font-family: $titleFont;
+        font-weight: 800;
+        font-size: 2rem;
+        text-align: center;
+    
+    }
+}
+
+.skills{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+.skillsImage{
+    width: 100px;
+    height: 85px;
+    padding: 5px;
+    margin: 10px;
+}
+.skillTitle{
+    color: $violet;
+    font-family: $fontCuadrada;
+    font-size: 14px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    line-height: 3;
+    text-align: center;
+}
+#light .skillTitle{
+    color:$green;
+}
+
+#dark .skillsDiv h1{
+    color: $red;
+
+}
+#light .skillsDiv h1{
+    text-align: center;
+    color:$violet;
+    text-shadow: 1px 1px 4px #00ffe0;
+}
+
+@media(max-width:700px){
+    .skillsDiv h1 {
+        font-size: 1.5rem;
+    }
+}

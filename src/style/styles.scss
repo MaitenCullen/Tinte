@@ -1,0 +1,113 @@
+
+@import './setting';
+@import './screensStyle/projects';
+@import './screensStyle/home';
+@import './screensStyle/skills';
+@import './screensStyle/Contact';
+@import './screensStyle/CardProjects';
+@import './screensStyle/Services';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+// body{
+//     background-color:$backgoundLight;
+// }
+.app{
+  height: 100%;
+  position: relative;
+  min-height:100vh;
+}
+.sectionAPP{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#dark {
+background-color: $backgroundDark;
+
+}
+
+#light {
+background-color: white;
+ }
+
+ .switch {
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: $fontCuadrada;
+    letter-spacing: 6px;
+    padding-right: 3%;
+  }
+  
+  .switch label {
+    margin: 10px;
+  }
+  
+  #light .switch label {
+    color: $darkBlue;
+  }
+  
+  #dark .switch label {
+    color: $red;
+  }
+  .div-translate {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    justify-content: flex-end;
+  }
+
+  .switch-T{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    &input{
+        opacity: 0;
+        width: 0;
+        height: 0;  
+    }
+  }
+  .translateES{
+    border: solid 2;
+    border-color:red yellow;
+    border-radius: 15%;
+    background-color: transparent;
+    padding: 5px;
+    margin: 3%;
+    color: $redClaro;
+    font-family: $fontGeneric;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .translateEN{
+    border: solid 2px;
+    border-color:red white rgb(0, 68, 255);
+    border-radius: 15%;
+    background-color: transparent;
+    padding: 5px;
+    margin: 3%;
+    color: $redClaro;
+    font-family: $fontGeneric;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  #light .translateES{
+    color: black;
+    border-color:red;
+    background:linear-gradient(red, yellow, red);
+  }
+  #light .translateEN{
+    color: black;
+    border-color:rgb(0, 68, 255);
+    background:linear-gradient(red, white, rgb(0, 68, 255));
+  }

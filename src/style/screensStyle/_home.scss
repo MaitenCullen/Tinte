@@ -1,0 +1,320 @@
+
+@import '../setting';
+
+
+/*Home*/
+
+.h1Name{
+    font-family: $fontCuadrada;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+#dark .h1Name{
+    color: $red;
+    text-shadow: 2px 1px 3px #ff66009d;
+}
+
+#light .h1Name{
+   color: $darkGreenDark;
+   text-shadow: 1px 1px 4px #00ffe0;
+}
+
+#light .title{
+    color: $darkBlue;
+}
+#dark .title{
+    color: $violet;
+    }
+
+
+h3,h4{
+    font-family: $fontGeneric;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-family: $titleFont;
+    line-height: 40px;
+    font-size: 2rem;
+}
+
+#light h2{
+    color: $violet;
+}
+#dark h2{
+    color: $blue;
+}
+
+.homeDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.imageDiv{
+    width: 30%;
+    height: 70%;
+}
+.nameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navFooter{
+    width: 100%;
+    
+}
+
+/*NavBar*/
+.navBarUl{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: $darkViolet;
+        font-weight: bold;
+        letter-spacing: 3px;
+        vertical-align: top;
+        position: relative;
+        cursor: pointer;
+        font-family: $titleFont;
+    }
+li{
+    position:relative;
+    padding: 6px;
+    margin: 1rem;
+    list-style-type: none;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 4px;
+        background-color:$redLight;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+    &:hover::before{
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+
+}
+}
+
+#dark .navBarUl a{
+    color:$redFuscia;
+}
+
+#light .navBarUl li{
+    position:relative;
+    padding: 5px;
+    list-style-type: none;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            border-radius: 4px;
+            background-color:$green;
+            bottom: 0;
+            left: 0;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform 0.3s ease-in-out;
+        }
+        &:hover::before{
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+    
+}
+
+  
+.navButton{
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    background-color: white;
+    border: 1px solid $green;
+}
+.navButton p{
+    font-family: $fontGeneric;
+    color: $darkViolet;
+    font-size: 2rem;
+}
+#dark .navButton{
+    background-color: $backgroundDark;
+    border: 1px solid $red;
+    color: $redLight;
+}
+#dark .navButton p{
+    color: $redLight;
+    font-family: $fontGeneric;
+}
+.divMobile{
+    display: none;
+}
+
+@media screen and (min-width:850px) {
+    .mobileNavbar{
+        display: none;
+    }
+    .divMobile {
+        display: none;
+      }
+}
+
+@media(max-width:1230px){
+    .navBarUl a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .navBarUl {
+        display: none;
+      }
+    .h1Name{
+        font-size: 3rem;
+        letter-spacing: 6px;
+    }
+    h2,h3,h4{
+        line-height: 35px;
+       
+    }
+    h3, h4{
+        line-height: 40px;
+        font-size: 1.5rem;
+        letter-spacing: 6px;
+        text-align: center;
+    }
+    
+    h2{
+        font-weight: 700;
+        font-size: 1.7rem;
+        letter-spacing: 6px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .navFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+   
+    .navBarUl{
+        display: none;
+    }
+ 
+    .navButton{
+        display: inline-block;
+    }
+    .divMobile {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 72%);
+        z-index: 9999;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+      .divMobile.show {
+        transform: translateX(0%);
+        height: 50%;
+      }
+      #light .divMobile{  
+        background-color: rgb(255 255 255 / 86%);
+      }
+      .mobileNavbar{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .navLink a{
+        text-decoration: none;
+        color:$violet;
+        margin: 5px;
+        padding: 10px;
+        letter-spacing: 2px;
+        line-height: 53px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        font-family: $fontCuadrada;
+    }
+    #dark .navLink a{
+        color: $red;
+    }
+    .div-icon-mobile{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .icon-nav{
+        color: #00ffe0;
+        font-size: 1rem;
+    }
+      
+}
+
+@media screen and (max-width: 350px) {
+    .h1Name{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 6px;
+    }
+    .nameDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    h2,h3,h4{
+        line-height: 25px;
+    }
+    h3, h4{
+        line-height: 40px;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    
+    h2{
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 4spx;
+    }
+    
+}
