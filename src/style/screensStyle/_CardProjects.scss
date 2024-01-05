@@ -28,7 +28,7 @@
     align-items: center;
   }
  #light .content h1{
-    color:$darkBlue;
+    color:black; //Cambiar
     text-shadow: 1px 1px 4px #ff7de3;
   }
  
@@ -57,11 +57,11 @@
 
  
  #light .card .title{
-    color:$darkBlue;
+    color:black; //Cambiar
  }
 
  #light .card .text{
-    color: $darkGreenDark;
+    color: black //CAMBIAR
  }
 
 
@@ -103,7 +103,7 @@
      font-size: 16px;
      text-align: center;
      margin-top: 20px;
-     color: $redLight;
+     color: black; //Cambiar
      font-weight: 700;
      letter-spacing: 1px;
      opacity: 0;

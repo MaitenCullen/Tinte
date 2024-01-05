@@ -17,12 +17,12 @@
 }
 
 #light .h1Name{
-   color: $darkGreenDark;
+   color: black; //Cambiar
    text-shadow: 1px 1px 4px #00ffe0;
 }
 
 #light .title{
-    color: $darkBlue;
+    color:black; //Cambiar
 }
 #dark .title{
     color: $violet;
@@ -50,7 +50,7 @@ h2{
     color: $violet;
 }
 #dark h2{
-    color: $blue;
+    color:black; //Cambiar
 }
 
 .homeDiv{
@@ -92,7 +92,7 @@ h2{
     a {
         font-size: 2rem;
         text-decoration: none;
-        color: $darkViolet;
+        color: black; //Cambiar
         font-weight: bold;
         letter-spacing: 3px;
         vertical-align: top;
@@ -111,7 +111,7 @@ li{
         width: 100%;
         height: 3px;
         border-radius: 4px;
-        background-color:$redLight;
+        background-color:black; //Cambiar
         bottom: 0;
         left: 0;
         transform-origin: right;
@@ -127,7 +127,7 @@ li{
 }
 
 #dark .navBarUl a{
-    color:$redFuscia;
+    color:black; //Cambiar
 }
 
 #light .navBarUl li{
@@ -140,7 +140,7 @@ li{
             width: 100%;
             height: 3px;
             border-radius: 4px;
-            background-color:$green;
+            background-color:black; //Cambiar
             bottom: 0;
             left: 0;
             transform-origin: right;
@@ -160,20 +160,20 @@ li{
     padding: 10px;
     display: none;
     background-color: white;
-    border: 1px solid $green;
+    border: 1px solid black; //Cambiar
 }
 .navButton p{
     font-family: $fontGeneric;
-    color: $darkViolet;
+    color: black; //Cambiar
     font-size: 2rem;
 }
 #dark .navButton{
     background-color: $backgroundDark;
     border: 1px solid $red;
-    color: $redLight;
+    color: black; //Cambiar
 }
 #dark .navButton p{
-    color: $redLight;
+    color: black; //Cambiar
     font-family: $fontGeneric;
 }
 .divMobile{

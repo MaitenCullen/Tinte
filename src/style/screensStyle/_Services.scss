@@ -41,13 +41,13 @@
     text-align: center;
     justify-content: space-evenly;
     &.c00{
-        border: 1px solid $darkGreen;     
+        border: 1px solid black; //Cambiar   
     }
     &.c01{
         border: 1px solid $violet;     
     }
     &.c02{
-        border: 1px solid $dorado;     
+        border: 1px solid black; //Cambiar
     }
     &.c03{
         border: 1px solid $red;     
@@ -62,23 +62,23 @@
     padding: 5px;
     &.c00{
          h3, h4{
-            color: $greenTitulo;
+            color: black; //Cambiar
         }
     }
     &.c01{
         h3, h4{
-           color: $violetaTitulo;
+           color:black; //Cambiar
        }
      
    }
     &.c02{
         h3, h4{
-        color: $dorado;
+        color: black; //Cambiar
     }
     }
     &.c03{
         h3, h4{
-        color: $redTitulo;
+        color: black; //Cambiar
     }
     }
     & h4{
@@ -97,25 +97,25 @@
     }
     & .linea{
         border: 0;
-        border-top: 3px dotted $redFuscia; 
+        border-top: 3px dotted black; //Cambiar
         width: 70%;
     }
 }
 #light .div-title-services{
 &.c00{
     h3, h4{
-        color: $darkGreenDark;
+        color:black; //Cambiar
     }
 }  
 &.c01{
     h3, h4{
-       color: $darkViolet;
+       color: black; //Cambiar
    }
  
 }
 &.c02{
     h3, h4{
-    color: $dorado;
+    color: black; //Cambiar
 }
 }
 &.c03{
@@ -140,17 +140,17 @@
     padding: 5px;
     &.c00{
         li{
-            color: $darkGreen;
+            color:black; //Cambiar
         }
     }
     &.c01{
         li{
-            color: $violetaFuscia;
+            color: black; //Cambiar
         }
     }
     &.c02{
         li{
-            color: $doradoClaro;
+            color: black; //Cambiar
         }
     }
     &.c03{
@@ -168,7 +168,7 @@
 #light .div-lista{
     &.c00{
         li{
-            color: $darkGreenDark;
+            color:black; //Cambiar
         }
     }
     &.c01{
@@ -178,12 +178,12 @@
     }
     &.c02{
         li{
-            color: $doradoOscuro;
+            color: black; //Cambiar
         }
     }
     &.c03{
         li{
-            color: $redFuscia;
+            color:black; //Cambiar
         }
     }
 }
@@ -200,26 +200,26 @@
     }
     &.c00{
         h4{
-            color: $green;
+            color: black; //Cambiar
         }
         p{
-            color: $darkGreenDark;
+            color:black; //Cambiar
         }
     }
     &.c01{
         h4{
-            color: $violetaFuscia;
+            color:black; //Cambiar
         }
         p{
-            color: $violetaMedio;
+            color: black; //Cambiar
         }
     }
     &.c02{
         h4{
-            color: $doradoClaro;
+            color: black; //Cambiar
         }
         p{
-            color: $dorado;
+            color:black; //Cambiar
         }
     }
     &.c03{
@@ -234,10 +234,10 @@
 #light .div-precios{
     &.c00{
         h4{
-            color: $darkGreen;
+            color: black; //Cambiar
         }
         p{
-            color: $darkGreenDark;
+            color: black; //Cambiar
         }
     }
     &.c01{
@@ -245,20 +245,20 @@
             color: $violet;
         }
         p{
-            color: $darkViolet;
+            color: black; //Cambiar
         }
     }
     &.c02{
         h4{
-            color: $dorado;
+            color: black; //Cambiar
         }
         p{
-            color: $doradoOscuro;
+            color: black; //Cambiar
         }
     }
     &.c03{
         h4{
-            color: $redFuscia;
+            color: black; //Cambiar
         }
         p{
             color: $red;

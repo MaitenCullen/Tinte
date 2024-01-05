@@ -33,7 +33,7 @@ background-color: $backgroundDark;
 }
 
 #light {
-background-color: white;
+background-color: $backgoundLight;
  }
 
  .switch {
@@ -53,7 +53,7 @@ background-color: white;
   }
   
   #light .switch label {
-    color: $darkBlue;
+    color: black; //Cambiar
   }
   
   #dark .switch label {

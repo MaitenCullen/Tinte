@@ -17,7 +17,7 @@
     font-size: 2rem;
   }
   #light .sectionHeader{
-    color:$darkBlue;
+    color:black; //Cambiar
     text-shadow: 1px 1px 4px #ff7de3;
   }
 
@@ -58,7 +58,7 @@
   }
   #light .formControl,
   textarea {
-    border: 1px solid $green;
+    border: 1px solid black; //Cambiar
   }
   .formButton {
     margin-top: 15px;
@@ -73,7 +73,7 @@
   }
   #light .formButton{
     color: $violet;
-    border: 1px solid $green;
+    border: 1px solid black; //Cambiar
   }
   .alt-formButton {
     width: 100%;
@@ -96,15 +96,15 @@
   .dataContactContainer {
     width: 60%;
     display: flex;
-    color: $green;
+    color:black; //Cambiar
     align-items: center;
     flex-direction: column;
     & li {
-      color:$darkBlue;
+      color: black; //Cambiar
       align-items: center;
     }
     & .contact-text{
-      color:$darkGreenDark;
+      color:black; //Cambiar
       font-family: $fontGeneric;
       font-weight: 500;
       font-size: 18px;
@@ -173,7 +173,7 @@
     align-items: center;
 }
   #dark .social-media-list a{
-    color:$green;
+    color:black; //Cambiar
     text-shadow: 1px 1px 4px #00ffe0;
   }
   .social-media-list a {
@@ -194,7 +194,7 @@
     transition: all .2s ease-in-out;
   }
   #dark .social-media-list a:after {
-    color: $redLight;
+    color: black; //Cambiar
     box-shadow: 0 0 0 1px #ff3838;
   }
   .social-media-list a:after {
