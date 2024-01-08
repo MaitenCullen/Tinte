@@ -1,10 +1,10 @@
 {
     "header":{
-        "HOLA": "Hola! soy",
-        "COTIDIANO": "Volviendo codigo el cotidiano."
+        "TITULO": "Le damos forma y color a tu imaginación",
+        "TEXTO": "Gracias a un equipo dedicado y haciendo uso de distintas tecnologías, tomamos tus sueños e ideas, las trasladamos a lo digital y le damos vida. Tus proyectos cobran vida y adquieren nuevos sabores. El secreto esta en el tiempo, la dedicación y los ingredientes"
     },
     "skills":{
-        "HABILIDADES":"Tecnologías"
+        "HABILIDADES":"Aquí puedes conocer las herramientas y tecnologías que aplicamos para las creaciones"
     },
     "navbar":{
         "SKILLS":"Tecnologías",

@@ -1,10 +1,10 @@
 {
     "header":{
-        "HOLA": "Hi! I'm",
-        "COTIDIANO": "coding everyday experience"
+        "TITULO": "We shape and color your imagination",
+        "TEXTO": "Thanks to a dedicated team and using different technologies, we take your dreams and ideas, transfer them to digital and bring them to life. Your projects come to life and acquire new flavors. The secret is in the time, dedication and ingredients."
     },
     "skills":{
-        "HABILIDADES":"Technical skills"
+        "HABILIDADES":"The tools and technologies we use for our creations."
     },
     "navbar":{
         "SKILLS":"Technologies",

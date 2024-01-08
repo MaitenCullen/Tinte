@@ -25,7 +25,7 @@
     color:black; //Cambiar
 }
 #dark .title{
-    color: $violet;
+    color: $white;
     }
 
 
@@ -33,16 +33,19 @@ h3,h4{
     font-family: $fontGeneric;
     font-weight: 700;
     line-height: 60px;
-    font-size: 25px;
+    font-size: 1.5rem;
     letter-spacing: 6px;
+}
+h4{
+    font-size: 1rem;
 }
 
 h2{
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 3rem;
     letter-spacing: 6px;
-    font-family: $titleFont;
-    line-height: 40px;
+    font-family: $fontGeneric; //cambiar
+    line-height: 50px;
     font-size: 2rem;
 }
 
@@ -54,20 +57,32 @@ h2{
 }
 
 .homeDiv{
-    height: 100vh;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     flex-direction: row;
+    padding:40px ;
+    .divText{
+        padding: 40px 80px ;
+        div{
+            h2{
+                margin-bottom: 20px;
+            }
+            margin-bottom: 20px;
+        }
+        button{
+            border-radius: 50px;
+            padding: 15px;
+            font-size: 2rem;
+            font-family: $fontGeneric;
+            border: 0;
+            background-color: $red;
+        }
+    }
+    img{
+        width: 650px;
+    }
+}
 
-}
-.textDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-}
+
 .imageDiv{
     width: 30%;
     height: 70%;
