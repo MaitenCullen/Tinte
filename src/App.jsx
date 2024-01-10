@@ -12,7 +12,8 @@ function App() {
  const [theme, setTheme] = useState('dark');
  const [t, i18n] = useTranslation("global");
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    setTheme((curr) => (curr === "dark" ? "light" : "dark"));
+    console.log(theme, "el tema")
   };
 
   return (

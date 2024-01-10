@@ -46,25 +46,25 @@ const project = [
         image:'./santaFemas.jpg',
         icon:<MdOutlineEmojiPeople/>
     },
-    {
-        id:4,
-        project:'Autosescuela',
-        description:'AUTOESCUELA',
-        technologies:'Javascript, HTML, SASS',
-        link:'https://autoescuela.vercel.app/',
-        image:'./autoEscuela.png',
-        icon:<IoCarSportOutline/>
-    },
-    {
-        id:5,
-        project:'UnLimited',
-        description:'UNLIMITED',
-        technologies:'React Native, Node Js, Mongo DB',
-        link:'exp://exp.host/@maiten18/C7-43?release-channel=default',
-        image:'./unlimited.png',
-        video:'./unLimited2.gif',
-        icon:<FaRegHandSpock/>
-    },
+    // {
+    //     id:4,
+    //     project:'Autosescuela',
+    //     description:'AUTOESCUELA',
+    //     technologies:'Javascript, HTML, SASS',
+    //     link:'https://autoescuela.vercel.app/',
+    //     image:'./autoEscuela.png',
+    //     icon:<IoCarSportOutline/>
+    // },
+    // {
+    //     id:5,
+    //     project:'UnLimited',
+    //     description:'UNLIMITED',
+    //     technologies:'React Native, Node Js, Mongo DB',
+    //     link:'exp://exp.host/@maiten18/C7-43?release-channel=default',
+    //     image:'./unlimited.png',
+    //     video:'./unLimited2.gif',
+    //     icon:<FaRegHandSpock/>
+    // },
         {
         id:6,
         project:'Contrata',
@@ -83,15 +83,15 @@ const project = [
         image:'./monarquia.png',
         icon:<FaDog/>  
     },         
-    {
-        id:8,
-        project:'Obertec Industrias',
-        description:'OBERTEC-INDUSTRIAS',
-        technologies:'HTML, CSS, PHP, Javascript, Bootstrap',
-        link:'http://www.industriasobertec.com.ar/index.php',
-        image:'./obertec.png',
-        icon:<ImLab/>  
-    } ,
+    // {
+    //     id:8,
+    //     project:'Obertec Industrias',
+    //     description:'OBERTEC-INDUSTRIAS',
+    //     technologies:'HTML, CSS, PHP, Javascript, Bootstrap',
+    //     link:'http://www.industriasobertec.com.ar/index.php',
+    //     image:'./obertec.png',
+    //     icon:<ImLab/>  
+    // } ,
      {
          id:9,
          project:'Fidel Construcciones',
