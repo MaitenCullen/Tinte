@@ -7,6 +7,7 @@ import { Skills } from './Skills'
 import { Services } from './Services'
 import { Section02 } from './Section02'
 import { Work } from './Work'
+import { Footer } from './Footer'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <Section02/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

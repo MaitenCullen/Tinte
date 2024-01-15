@@ -22,9 +22,8 @@ import { Button } from '../components/Button';
  export const Contact = () => {
   const [t, i18n] = useTranslation("global");
   const {theme} = useContext(ThemeContext);
-  const style = { fontSize: "1.3em" }
+  const style = { fontSize: "1.3em", margin:"15px" }
   const style2 = { width:"1.5em"}
-  const styleSend = {color:'red', fontSize: "2.5em" }
   const [ contacto, setcontacto] = useState({})
   const [mesaje, setMesaje] = useState('')
   const userContact = (event) => {
@@ -52,6 +51,7 @@ const contactDates = (event) => {
 
 <section id="contact">
   <h1 className="sectionHeader">{t('contacto.CONTACTO')}</h1>
+  <h3 className="sectionHeader">{t('contacto.IDEA')}</h3>
   <div className="contactWrapper"> 
   {!mesaje ? 
       <div>
@@ -74,23 +74,6 @@ const contactDates = (event) => {
       {theme === 'dark' ? <img  src={copaB} alt='imagen central' /> : <img  src={copaV} alt='imagen central' /> }
       </div>
   </div>
-  <div className="dataContactContainer">
-        <ul className="contactList" id={theme}>
-          <li className="listItem"><GoLocation className="icon-contact" style={style}/><span className="contact-text">Rosario, Argentina</span></li>
-          <li className="listItem"><FaWhatsapp style={style}/><span className="contact-text">+54(341)15-3540307</span></li>          
-          <li className="listItem"><HiOutlineMail style={style}/><span className="contact-text">cullen.maiten@gmail.com</span></li>
-        </ul>
-        <hr/>
-        <ul className="social-media-list" id={theme}>
-          <a href="https://github.com/MaitenCullen" target="_blank" className="contact-icon">
-           <FiGithub  style={style2} as='a' href="https://github.com/MaitenCullen"/></a>
-          <a href="https://www.linkedin.com/in/maiten-cullen-/" target="_blank" className="contact-icon">
-           <FaLinkedin style={style2}/></a>
-          <a href="https://wa.me/3413540307" target="_blank" className="contact-icon">
-           <IoLogoWhatsapp style={style2}/></a>             
-        </ul>
-        <hr/>
-     </div>
 </section>  
   )
 }

@@ -4,10 +4,9 @@
     align-items: center;
     & h1 {
         font-family: $titleFont;
-        font-weight: 800;
+        font-weight: 500;
         font-size: 2rem;
         text-align: center;
-    
     }
 }
 
@@ -28,7 +27,7 @@
 }
 
 .skillTitle{
-    color: $violet;
+    color: $white;
     font-family: $fontText;
     font-size: 14px;
     letter-spacing: 6px;
@@ -37,34 +36,41 @@
     text-align: center;
 }
 
-.slide{
-width:60px;
-    img {
-        max-width: 80px; 
-        max-height: 80px; 
-        width: auto; 
-        height: auto;
-        object-fit: contain; 
+
+.carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    .slide {
+        width:60px;
+        height: 100%;
+        padding: 0 10px; 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain; 
+        }
     }
 }
 
-.carousel .slide {
-    padding: 0 10px; 
-}
 .carousel .carousel-slider {
     max-width: 90%; 
     margin: 0 auto;
+
 }
 #light .skillTitle{
     color:black; //Cambiar
 }
 
 #dark .skillsDiv h1{
-    color: $red;
-
+    color: $white;
 }
 #light .skillsDiv h1{
-    text-align: center;
     color:$violet;
 }
 

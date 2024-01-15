@@ -5,7 +5,7 @@
     align-items: center;
 }
 #dark .work-h4{
-    color: $red;
+    color: $white;
 }
 
 #light .work-h4{
@@ -13,7 +13,7 @@
 }
 
 #dark .work-p{
-    color: $red;
+    color: $white;
 }
 
 #light .work-p{
@@ -22,15 +22,15 @@
 .div-work-text{
     h4{
         font-family: $titleFont;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 60px;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 6px;
     }
     p{
         font-family: $fontGeneric;
-        font-weight: 700;
-        line-height: 60px;
+        font-weight: 500;
+        line-height: 50px;
         font-size: 1.5rem;
         letter-spacing: 6px;
     }

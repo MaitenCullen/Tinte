@@ -6,22 +6,40 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    padding: 30px;
     & h1 {
         font-family: $titleFont;
-        color: $red;
         letter-spacing: 6px;
-        font-weight: 800;
+        font-weight: 500;
         font-size: 2rem;
-        padding: 40px 0;
+        line-height: 50px;
     }
-    & h3 {
-        font-size: 0.9rem;
+    & h3, h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
         font-family: $fontGeneric;
-        color: $violet;
-        padding: 15px;
+        line-height: 50px;
     }
 }
 
+#light h1{
+    color: $violet;
+}
+#dark h1{
+    color: $white;
+}
+#light h3{
+    color: $violet;
+}
+#dark h3{
+    color: $white;
+}
+#light h4{
+    color: $violet;
+}
+#dark h4{
+    color: $white;
+}
 .div-services-component{
     width: 100%;
     justify-content: space-evenly;
@@ -30,9 +48,7 @@
 }
 
 .div-info-services{
-    margin: 4%;
-    width:450px;
-    height: 700px;
+    padding: 20px;
     border-radius: 15px;
     padding: 5px;
     display: flex;
@@ -40,18 +56,6 @@
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    &.c00{
-        border: 1px solid black; //Cambiar   
-    }
-    &.c01{
-        border: 1px solid $violet;     
-    }
-    &.c02{
-        border: 1px solid black; //Cambiar
-    }
-    &.c03{
-        border: 1px solid $red;     
-    }
 }
 
 .div-title-services{
@@ -59,73 +63,28 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 5px;
-    &.c00{
-         h3, h4{
-            color: black; //Cambiar
-        }
-    }
-    &.c01{
-        h3, h4{
-           color:black; //Cambiar
-       }
-     
-   }
-    &.c02{
-        h3, h4{
-        color: black; //Cambiar
-    }
-    }
-    &.c03{
-        h3, h4{
-        color: black; //Cambiar
-    }
-    }
+    padding: 15px;
+    margin-bottom: 20px;
     & h4{
-        font-size: 0.7rem;
+        font-size: 1.5rem;
         line-height: 30px;
         font-family: $fontGeneric;
         letter-spacing: 6px;
     }
     & h3{
-        font-size: 1rem;
+        font-size: 2rem;
         line-height: 25px;
         font-family:  $fontText;
-        text-align: center;
-        width: 80%;
-    
+        text-align: center;    
     }
     & .linea{
         border: 0;
-        border-top: 3px dotted black; //Cambiar
+        border-top: 3px dotted rgb(253, 98, 240); //Cambiar
         width: 70%;
+        margin: 20px 0;
     }
-}
-#light .div-title-services{
-&.c00{
-    h3, h4{
-        color:black; //Cambiar
-    }
-}  
-&.c01{
-    h3, h4{
-       color: black; //Cambiar
-   }
- 
-}
-&.c02{
-    h3, h4{
-    color: black; //Cambiar
-}
-}
-&.c03{
-    h3, h4{
-    color: $red;
-}
 }
 
-   
-}
 .container-lista{
     display: flex;
     flex-direction: column;
@@ -135,58 +94,10 @@
     justify-content: space-between;
 }
 .div-lista{
-    width: 80%;
     text-align: left;
     padding: 5px;
-    &.c00{
-        li{
-            color:black; //Cambiar
-        }
-    }
-    &.c01{
-        li{
-            color: black; //Cambiar
-        }
-    }
-    &.c02{
-        li{
-            color: black; //Cambiar
-        }
-    }
-    &.c03{
-        li{
-            color: $redClaro;
-        }
-    }
-    ul, li{
-        font-family: $fontGeneric;
-        letter-spacing: 3px;
-        font-size: 1rem;
-        line-height: 25px;
-    }
 }
-#light .div-lista{
-    &.c00{
-        li{
-            color:black; //Cambiar
-        }
-    }
-    &.c01{
-        li{
-            color: $violet;
-        }
-    }
-    &.c02{
-        li{
-            color: black; //Cambiar
-        }
-    }
-    &.c03{
-        li{
-            color:black; //Cambiar
-        }
-    }
-}
+
 .div-precios{
     padding: 5px;
     margin-top: 10px;
@@ -198,73 +109,8 @@
         font-size: 1rem;
         letter-spacing: 4px;
     }
-    &.c00{
-        h4{
-            color: black; //Cambiar
-        }
-        p{
-            color:black; //Cambiar
-        }
-    }
-    &.c01{
-        h4{
-            color:black; //Cambiar
-        }
-        p{
-            color: black; //Cambiar
-        }
-    }
-    &.c02{
-        h4{
-            color: black; //Cambiar
-        }
-        p{
-            color:black; //Cambiar
-        }
-    }
-    &.c03{
-        h4{
-            color: $redClaro;
-        }
-        p{
-            color: $red;
-        }
-    }
 }
-#light .div-precios{
-    &.c00{
-        h4{
-            color: black; //Cambiar
-        }
-        p{
-            color: black; //Cambiar
-        }
-    }
-    &.c01{
-        h4{
-            color: $violet;
-        }
-        p{
-            color: black; //Cambiar
-        }
-    }
-    &.c02{
-        h4{
-            color: black; //Cambiar
-        }
-        p{
-            color: black; //Cambiar
-        }
-    }
-    &.c03{
-        h4{
-            color: black; //Cambiar
-        }
-        p{
-            color: $red;
-        }
-    }
-}
+
 @media(max-width:1230px){
 
     .div-services-component {
@@ -274,7 +120,6 @@
     .div-info-services{
         width:450px;
         height: 700px;
-        margin: 3%;
     }
 }
 @media(max-width:800px){
@@ -298,13 +143,7 @@
         font-size: 0.7rem;
         line-height: 30px;
     }
-    }
-    .div-lista{
-        width: 90%;
-        ul, li{
-            font-size: 0.6rem;
-            line-height: 20px;
-        }
+    
     }
     .div-precios{
         margin-top: 5px;

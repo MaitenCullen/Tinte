@@ -24,7 +24,9 @@ export const About = () => {
         </div>
           <Button text="Inicia tu proyecto"/>
       </div>
-       {theme === 'dark' ? <img  src={copa1} alt='imagen central' /> : <img  src={copa6} alt='imagen central' /> }
+      <div className='divImg'>
+        {theme === 'dark' ? <img  src={copa1} alt='imagen central' /> : <img  src={copa6} alt='imagen central' /> }
+      </div>
     </section>
 
   )
