@@ -9,7 +9,7 @@ export const Services = () => {
     return(
         <section id='servicios'>
             <div className="div-services">
-                <h1>{t('servicios.SERVICIOS')}</h1>
+                <h1 className="section-title-services">{t('servicios.SERVICIOS')}</h1>
                 <ServicesInfo/>
             </div>
         </section>

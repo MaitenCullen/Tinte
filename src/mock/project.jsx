@@ -17,7 +17,7 @@ const project = [
         technologies:'React js, Javascript, Firebase, SASS',
         link:'https://betty-juguetes2-xi.vercel.app/',
         image:'./betty.png',
-        icon:<GiSelfLove/>
+        icon:'./betty.png'
     },
     {
         id:1,
@@ -26,7 +26,7 @@ const project = [
         technologies:'HtML, CSS, Bootstrap, Figma',
         link:'https://laprinsumosfinal.vercel.app/',
         image:'./laprinsumos.png',
-        icon:<RiGameLine/>
+        icon:'./laprinsumos.png'
     },
     {
         id:2,
@@ -35,7 +35,7 @@ const project = [
         technologies:'Figma, React JS, Javascript, SASS, Node JS, React Bootstrap, Monongose.',
         link:'https://s5-06-mern.vercel.app/',
         image:'./ITenseño.png',
-        icon:<FaChalkboardTeacher/>
+        icon:'./itenseño.png'
     },
     {
         id:3,
@@ -44,7 +44,7 @@ const project = [
         technologies:'HTML, CSS, Bootstrap, SASS',
         link:'https://santa-fe-mas.vercel.app/',
         image:'./santaFemas.jpg',
-        icon:<MdOutlineEmojiPeople/>
+        icon:'./santa.png'
     },
     // {
     //     id:4,
@@ -55,16 +55,14 @@ const project = [
     //     image:'./autoEscuela.png',
     //     icon:<IoCarSportOutline/>
     // },
-    // {
-    //     id:5,
-    //     project:'UnLimited',
-    //     description:'UNLIMITED',
-    //     technologies:'React Native, Node Js, Mongo DB',
-    //     link:'exp://exp.host/@maiten18/C7-43?release-channel=default',
-    //     image:'./unlimited.png',
-    //     video:'./unLimited2.gif',
-    //     icon:<FaRegHandSpock/>
-    // },
+     {
+        id:5,
+         project:'Little Laniless. Desings',
+         description:'Laliness',
+         technologies:'React Native, Node Js, Mongo DB',
+         link:'t',
+         icon:'./little.png'
+     },
         {
         id:6,
         project:'Contrata',
@@ -72,7 +70,7 @@ const project = [
         technologies:'React JS, Redux, Tailwind, Node JS, Doker, Mongo, Moongose',
         link:'https://contrata.vercel.app/',
         image:'./contrata.png',
-        icon:<IoHammerOutline/>  
+        icon:'./contrata.png'
     },
     {
         id:7,
@@ -80,27 +78,25 @@ const project = [
         description:'MONARQUIA-PERRUNA',
         technologies:'React JS, Daisy UI, Figma',
         link:'http://www.monarquiaperruna.com.ar/',
-        image:'./monarquia.png',
-        icon:<FaDog/>  
+        icon:'./monarquia.png'
     },         
-    // {
-    //     id:8,
-    //     project:'Obertec Industrias',
-    //     description:'OBERTEC-INDUSTRIAS',
-    //     technologies:'HTML, CSS, PHP, Javascript, Bootstrap',
-    //     link:'http://www.industriasobertec.com.ar/index.php',
-    //     image:'./obertec.png',
-    //     icon:<ImLab/>  
-    // } ,
      {
-         id:9,
-         project:'Fidel Construcciones',
-         description:'FIDEL-CONSTRUCCIONES',
-         technologies:'HTML, CSS, Styled Component, Javascript, React Js',
-         link:'https://fidel-construcciones.vercel.app/',
-         image:'./fidel.png',
-         icon:<RiBuilding2Line/>  
-     } 
+         id:8,
+         project:'Comming, App Mobile',
+         description:'Comming',
+         technologies:'',
+         link:'',
+         icon:'./comming.png',
+     } ,
+    //  {
+    //      id:9,
+    //      project:'Fidel Construcciones',
+    //      description:'FIDEL-CONSTRUCCIONES',
+    //      technologies:'HTML, CSS, Styled Component, Javascript, React Js',
+    //      link:'https://fidel-construcciones.vercel.app/',
+    //      image:'./fidel.png',
+    //      icon:<RiBuilding2Line/>  
+    //  } 
 ]
 
 

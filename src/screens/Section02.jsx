@@ -3,7 +3,7 @@ import { useTranslation} from "react-i18next"
 import copaB from "/copasB.png"
 import copaV from "/copasV.png"
 import copaA from "/copasA.png"
-import copaN from "/copasN.png"
+import copaN from "/copasNaranjas.png"
 import { Button } from '../components/Button'
 import { ThemeContext } from '../App'
 

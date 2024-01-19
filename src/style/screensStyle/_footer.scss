@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     padding: 20px;
+    background-color: $backgroundDarkViolet;
 }
 .footer-container {
     width: 100%;
@@ -25,9 +26,10 @@
         
     }
     .div-contact{
+      background-color: $backgroundDarkViolet;
         flex: 1;
         .contact-text{
-            color:$white; //Cambiar
+            color:$redClaro; //Cambiar
             font-family: $fontGeneric;
             font-weight: 500;
             font-size: 2rem;
@@ -44,7 +46,10 @@
       padding: 0 40px;
     }
   }
-
+  #light .footer, #light .footer-container, #light .div-contact {
+    background-color: $switch;
+  }
+  
 
   /* Location, Phone, Email Section */
   .contactList {
@@ -52,13 +57,12 @@
      width: 100%;
      .listItem {
         line-height: 20px;
-        color:black;
+        color:$white;
         font-size: 2rem;
         display:flex ;
         align-items: center;
       }
   }
-  
 
 
   .social-media-list {
@@ -72,9 +76,29 @@
     justify-content: space-evenly;
     align-items: center;
 }
-  #dark .social-media-list a{
-    color:black; //Cambiar
-    text-shadow: 1px 1px 4px #00ffe0;
+#dark .contactList{
+  background-color: $backgroundDarkViolet;
+}
+#light .contactList{
+  background-color: $switch;
+}
+  #dark .social-media-list{
+    background-color: $backgroundDarkViolet;
+    a{
+      color:$white; //Cambiar
+    }
+    text-shadow: 1px 1px 4px $redClaro;
+  }
+  .social-media-list a {
+    color: #fef7ff;
+  }
+  
+  #light .social-media-list{
+    background-color: $switch;
+    a{
+      color:$white; //Cambiar
+    }
+    text-shadow: 1px 1px 4px $redClaro;
   }
   .social-media-list a {
     color: #fef7ff;
@@ -94,29 +118,13 @@
     cursor: pointer; 
     transition: all .2s ease-in-out;
   }
-  #dark .social-media-list a:after {
-    color: black; //Cambiar
-    box-shadow: 0 0 0 1px #ff3838;
-  }
-  .social-media-list a:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #ee35ff;
-    transition: all .2s ease-in-out;
-  }
+
   
   .social-media-list a:hover {
-    background-color: #f827ff5d; 
+    background-color: $redClaro; 
   }
   #dark .social-media-list a:hover{
-    background-color: #fd5d5d2f;
+    background-color: $redClaro;
   }
   .social-media-list a:hover:after {
     opacity: 1;  

@@ -23,7 +23,7 @@ export const CardProjects = () => {
       {projects.map((project) => (
         <div className='card cardMobile animate' key={project.id}>
           <a className="" href={project.link} target="_blank">
-            <div className="icon" ><i className="material-icons md-36">{project.icon}</i></div>
+            <div className="icon" ><img src={project.icon}/></div>
             <p className="title">{project.project}</p>
             <p className="text">{t(`proyectos.${project.description}`)} </p>
             {project.video ? <p className="text"> <a className='Unlimited ' href="https://ibb.co/zFcrZTD">LINK</a></p> : null}

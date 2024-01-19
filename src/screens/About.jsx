@@ -22,10 +22,10 @@ export const About = () => {
           <h2 className='title' >{t('header.TITULO')}</h2>
           <h3 className='title' >{t("header.TEXTO")}</h3> 
         </div>
-          <Button text="Inicia tu proyecto"/>
+          <Button text="Inicia tu proyecto" className='violet'/>
       </div>
       <div className='divImg'>
-        {theme === 'dark' ? <img  src={copa1} alt='imagen central' /> : <img  src={copa6} alt='imagen central' /> }
+        {theme === 'dark' ? <img  src={copa7} alt='imagen central' /> : <img  src={copa5} alt='imagen central' /> }
       </div>
     </section>
 

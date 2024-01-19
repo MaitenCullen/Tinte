@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 40px;
     & h1 {
         font-family: $titleFont;
         font-weight: 500;
@@ -9,7 +11,12 @@
         text-align: center;
     }
 }
-
+#light .skillsDiv{
+    background-color: $switch;
+}
+#dark .skillsDiv{
+    background-color: $backgroundDarkViolet;
+}
 .skills{
     display:flex;
     flex-wrap: wrap;
@@ -20,11 +27,6 @@
 
 }
 
-.skill-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .skillTitle{
     color: $white;

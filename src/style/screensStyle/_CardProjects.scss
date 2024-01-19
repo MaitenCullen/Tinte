@@ -42,10 +42,10 @@
  
 
 
- #light .card {
-  background-color: rgb(255 255 255 / 91%);
-  border: 2px solid $violet;
- }
+//  #light .card {
+//   background-color: rgb(255 255 255 / 91%);
+//   border-bottom: 2px solid $violet;
+//  }
  
 
 
@@ -68,8 +68,8 @@
    height: 320px;
    padding: 1rem;
    margin: 10px;
-   border-radius: 10px;
-   border: 2px solid $redClaro;
+   border-radius: 0;
+   border-bottom: 2px solid $redClaro;
    font-size: 16px;
    transition: all 0.3s ease;
    position: relative;

@@ -45,6 +45,7 @@ background-color: $backgoundLight;
     font-weight: bold;
     font-family: $titleFont;
     letter-spacing: 6px;
+    background-color: $backgroundDarkViolet;
     .div-switch{
         display: flex;
         align-items: center;
@@ -54,6 +55,9 @@ background-color: $backgoundLight;
     }
 
   }
+#light .switch{
+  background-color: $backgoundLight;
+}
   .div-logo{
     display: flex;
     align-items: center;
@@ -79,38 +83,34 @@ background-color: $backgoundLight;
 
 
   .translateES{
-    border: solid 2;
-    border-color:red yellow;
-    border-radius: 15%;
-    background-color: transparent;
+    border: none;
+    background-color: $redClaro;
     padding: 5px;
     margin: 10px;
     color: $white;
     font-family: $fontGeneric;
+    font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
+    width: 40px;
   }
   .translateEN{
-    border: solid 2px;
-    border-color:red white rgb(0, 68, 255);
-    border-radius: 15%;
-    background-color: transparent;
+    border: none;
+    background-color: $redClaro;
     padding: 5px;
     margin: 10px;
     color: $white;
     font-family: $fontGeneric;
+    font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
+    width: 40px;
   }
   #light .translateES{
-    color: black;
-    border-color:red;
-    background:linear-gradient(red, yellow, red);
+    background-color: $violet;
   }
   #light .translateEN{
-    color: black;
-    border-color:rgb(0, 68, 255);
-    background:linear-gradient(red, white, rgb(0, 68, 255));
+    background-color: $violet;
   }
 
   .button{
@@ -119,5 +119,15 @@ background-color: $backgoundLight;
       font-size: 2rem;
       font-family: $fontButton;
       border: 0;
+      color: $white;
       background-color: $red;
+      cursor: pointer;
+
+       &.violet{
+        background-color: $switch;
+      }
+      &.yellow{
+        background-color: $redClaro;
+      }
   }
+  

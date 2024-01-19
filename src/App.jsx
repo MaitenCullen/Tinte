@@ -26,7 +26,7 @@ function App() {
             </div>
             <div className='div-switch'>
             <label>{theme === 'light' ? "Blanco" : "Tinto"} </label>
-                <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
+                <ReactSwitch  onColor='#C886B5' onChange={toggleTheme} checked={theme === "dark"}/>
                 <div className='div-translate'>
                   <button className='translateES' onClick={()=> i18n.changeLanguage("es")}>ES</button>
                   <button className='translateEN' onClick={()=> i18n.changeLanguage("en")}>EN</button>

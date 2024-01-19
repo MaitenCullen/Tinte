@@ -20,11 +20,11 @@ export const Work = () => {
             <p className='work-p'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a hic dolorum perspiciatis voluptatibus tenetur suscipit consequuntur animi laborum explicabo, minus blanditiis quibusdam vitae! Aliquid omnis alias necessitatibus ab ipsa!
             </p>
+            <Button text='Contactanos' className='yellow'/>
         </div>
         <div>
         {theme === 'dark' ? <img  src={uvaB} alt='imagen central' /> : <img  src={uvaV} alt='imagen central' /> }
         </div>
-     
     </section>
 
   )

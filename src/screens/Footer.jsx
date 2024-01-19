@@ -26,7 +26,7 @@ import { Button } from '../components/Button';
   const style2 = {  fontSize: "2em"}
 
   return (
-    <section id="Footer">
+    <section id="Footer" className='footer'>
     <div className="footer-container">
         <div className='div-lista'>
             <ul>
