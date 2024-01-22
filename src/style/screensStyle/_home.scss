@@ -159,7 +159,7 @@ li{
 }
 
 #dark .navButton{
-    background-color: $backgroundDark;
+    background-color: transparent;
     color: white; //Cambiar
 }
 
@@ -224,18 +224,15 @@ li{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 72%);
+        height: 50%;
         z-index: 9999;
         transform: translateX(-100%);
         transition: transform 0.3s ease;
+        background-color: rgba($color: #79155B, $alpha: 0.9);
       }
       .divMobile.show {
         transform: translateX(0%);
         height: 50%;
-      }
-      #light .divMobile{  
-        background-color: rgb(255 255 255 / 86%);
       }
       .mobileNavbar{
         display: flex;

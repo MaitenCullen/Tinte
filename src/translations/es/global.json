@@ -29,7 +29,8 @@
     },
     "contacto":{
         "CONTACTO":"Trabajemos juntos",
-        "IDEA":"¿Tienes una idea genial que quieras llevar a cabo? Contáctanos y hagamos realidad tu proyecto",
+        "IDEA":"¿Tienes una idea genial que quieras llevar a cabo?",
+        "IDEA-CONTACTO":"Contáctanos y hagamos realidad tu proyecto",
         "INPUT-NOMBRE":"Nombre completo",
         "INPUT-MAIL":"cualestumail@example.com",
         "INPUT-TEXTO":"Deje su consulta acá",

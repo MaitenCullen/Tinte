@@ -22,7 +22,7 @@ function App() {
         <div className='switch'>
           <div className='div-logo'>
           {theme === 'light' ?  <img  src='/LogoL.png'  alt='imagen Logo' /> :<img  src='/logoD.png'  alt='imagen Logo' /> }
-              <NavBar/>
+          <NavBar/>
             </div>
             <div className='div-switch'>
             <label>{theme === 'light' ? "Blanco" : "Tinto"} </label>

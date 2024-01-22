@@ -6,12 +6,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
     h1{
       font-size: 3rem;
       font-family: $titleFont;
     }
     h3{
       font-size: 1.5rem;
+      font-family: $fontGeneric;
+    }
+    h3{
+      font-size: 1.2rem;
       font-family: $fontGeneric;
     }
   }

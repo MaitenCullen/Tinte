@@ -29,7 +29,8 @@
     },
     "contacto":{
         "CONTACTO":"Let's work together",
-        "IDEA":"Do you have a great idea that you want to realize? Contact us and let's make your project a reality",
+        "IDEA":"Do you have a great idea that you want to realize?",
+        "IDEA-CONTACTO": "Contact us and let's make your project a reality",
         "INPUT-NOMBRE":"Full Name",
         "INPUT-MAIL":"exampleEmail@example.com",
         "INPUT-TEXTO":"Leave your inquiry here",

@@ -52,6 +52,7 @@ const contactDates = (event) => {
 <section id="contact">
   <h1 className="sectionHeader">{t('contacto.CONTACTO')}</h1>
   <h3 className="sectionHeader">{t('contacto.IDEA')}</h3>
+  <h3 className="sectionHeader">{t('contacto.IDEA-CONTACTO')}</h3>
   <div className="contactWrapper"> 
   {!mesaje ? 
       <div>

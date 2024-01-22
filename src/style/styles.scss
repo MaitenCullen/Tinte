@@ -58,7 +58,7 @@ background-color: $backgoundLight;
 #light .switch{
   background-color: $backgoundLight;
 }
-  .div-logo{
+.div-logo{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -131,3 +131,42 @@ background-color: $backgoundLight;
       }
   }
   
+  @media screen and (max-width: 849px) {
+    .switch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.5rem;
+      .div-switch{
+          display: flex;
+          align-items: center;
+          label{
+            margin: 0px;
+          }
+      }
+    }  
+    .div-logo{
+      padding: 20px;
+      width: 100%;
+      justify-content: center;
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .translateES{
+      padding: 5px;
+      margin: 10px;
+      font-size: 0.8rem;
+      width: 25px;
+      text-align: center;
+    }
+    .translateEN{
+      padding: 5px;
+      margin: 10px;
+      font-weight: 500;
+      font-size: 0.8rem;
+      width: 25px;
+      text-align: center;
+    }
+  }
