@@ -71,7 +71,7 @@ const contactDates = (event) => {
         </form> 
       </div> : <div> <h2>{t('contacto.TEXT-CONFIRMACION')}</h2></div> 
        }
-      <div>
+      <div className='div-img-contact'>
       {theme === 'dark' ? <img  src={copaA} alt='imagen central' /> : <img  src={copaV} alt='imagen central' /> }
       </div>
   </div>

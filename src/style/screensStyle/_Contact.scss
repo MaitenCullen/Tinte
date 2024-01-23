@@ -80,6 +80,18 @@
   /* Begin Media Queries*/
 
   @media screen and (max-width: 850px) {
+    #contact{
+      padding: 20px;
+      h1{
+        font-size: 2rem;
+      }
+      h3{
+        font-size: 1.2rem;
+      }
+      h3{
+        font-size: 1rem;
+      }
+    }
     .contactWrapper {
       display: flex;
       flex-direction: column;
@@ -92,12 +104,12 @@
       margin: 3%;
       width: 280px;
     }
+    .div-img-contact{
+      img{
+        width: 100%;
+      }
+    }
   
-  }
-  @media(max-width:700px){
-       .sectionHeader{
-        font-size: 1.5rem;
-       }
   }
   
   @media screen and (max-width: 569px) {
@@ -113,15 +125,6 @@
     }
   
   }
-  
-  @media screen and (max-width: 410px) {
-    .contact-text{
-      font-size: 10px;
-      letter-spacing: 2px;
-    }
 
-    .contactWrapper .formContact, input, textarea {
-      width: 60px;
-      margin: 2%;
-    }
-  }
+
+  

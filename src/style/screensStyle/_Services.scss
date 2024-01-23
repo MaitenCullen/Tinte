@@ -10,7 +10,7 @@
     & h1 {
         font-family: $titleFont;
         letter-spacing: 6px;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 2rem;
         line-height: 50px;
     }
@@ -87,12 +87,6 @@
         border: 0;
         
     }
-    & .linea{
-        border: 0;
-        border-top: 3px dotted rgb(253, 98, 240); //Cambiar
-        width: 70%;
-        margin: 20px 0;
-    }
 }
 #light .div-title-services h3{
     background-color: $switch;  
@@ -123,46 +117,31 @@
     }
 }
 
-@media(max-width:1230px){
+@media(max-width:850px){
 
-    .div-services-component {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .div-services{
+        padding: 20px;
     }
-    .div-info-services{
-        width:450px;
-        height: 700px;
-    }
-}
-@media(max-width:800px){
-    .div-services-component{
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-    }
-    .div-info-services{
-        width:300px;
-        height: 600px;
-        margin: 3%;
-    }
-    
-.div-title-services{
-    & h4{
-        font-size: 0.5rem;
-        line-height: 25px;
-    }
-    & h3{
-        font-size: 0.7rem;
-        line-height: 30px;
-    }
-    
-    }
-    .div-precios{
-        margin-top: 5px;
-        padding: 2px
-        p{
-            font-size: 0.7rem;
-            letter-spacing: 4px;
+    .div-title-services{
+        padding: 0;
+        margin-bottom: 20px;
+        & h4{
+            font-size: 1.2rem;
+            line-height: 25px;
+            font-family: $fontGeneric;
+            letter-spacing: 6px;
+            text-align: center;
         }
+        & h3{
+            line-height: 30px;
+            padding: 10px;
+            font-size: 1.5rem;
+        }
+    }
+    
+    .section-copas{
+        img{
+            width: 100%;
+        };
     }
 }

@@ -39,6 +39,9 @@ export const Skills = () => {
                         centerSlidePercentage={20} // Ajusta el porcentaje de tamaño de cada imagen
                         autoPlay={true} // Reproducción automática
                         stopOnHover={false} // Continúa reproducción al pasar el mouse
+                        dynamicHeight={true} // Ajusta la altura dinámicamente
+                        swipeable={true} // Permite el deslizamiento táctil
+                        useKeyboardArrows={true} // 
                     >
                         {carouselItems}
                     </Carousel>

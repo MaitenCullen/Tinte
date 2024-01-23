@@ -22,7 +22,7 @@ import { Button } from '../components/Button';
  export const Footer = () => {
   const [t, i18n] = useTranslation("global");
   const {theme} = useContext(ThemeContext);
-  const style = { fontSize: "1.3em", margin:"15px" }
+  const style = { fontSize: "1.3em", margin:"10px" }
   const style2 = {  fontSize: "2em"}
 
   return (

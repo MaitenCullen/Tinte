@@ -145,103 +145,25 @@
   }
   
   @media screen and (max-width: 850px) {
-    .contactWrapper {
-      display: flex;
+    #Footer{
       flex-direction: column;
+      padding: 20px;
+      .footer-container{
+        flex-direction: column;
+      }
     }
-    .contactWrapper .formContact {
-      margin: 0 auto;
-    }  
-  
-    .contactWrapper .formControl,input, textarea {
-      margin: 3%;
-      width: 280px;
-    }
-    .dataContactContainer {
-      margin-top: 60px;
-      max-width: 350px;
-    }    
-    .dataContactContainer .contact-text{
-      font-size: 15px;
-    }
-    .social-media-list a {
-      height: 60px;
-      width: 60px;
-      line-height: 60px;
-    }
-    .social-media-list a:after {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
-    }
-  }
-  @media(max-width:700px){
-       .sectionHeader{
-        font-size: 1.5rem;
-       }
-  }
-  
-  @media screen and (max-width: 569px) {
-    .contactWrapper{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
+    .footer-container{
+      .div-contact{
+        .contactList{
+          .listItem {
+            display: none;
 
-   .contactWrapper .formControl,input, textarea {
-      margin: 3%;
-      width: 250px;
+          }
+        }
+    }
     }
    
-    
-    .dataContactContainer {
-      width: 100%;
-      margin-top: 60px;
-      max-width: 250px;
-    }  
-    .contactList{
-      display:none;
-    }
-    .social-media-list {
-      left: 0;
-    }
-    .social-media-list a {
-      height: 55px;
-      width: 55px;
-      line-height: 55px;
-      font-size: 2rem;
-    }
-    .social-media-list a:after {
-      width: 55px;
-      height: 55px;
-      line-height: 55px;
-    }
-    .contact-text{
-      margin-left: 0;
-    }
-    .sendText {
-      font: 500 13px "Lato", sans-serif;
-  }
-    
-  }
-  
-  @media screen and (max-width: 410px) {
-    .dataContactContainer {
-      margin-top: 30px;
-      max-width: 100px;
-    }    
-.contact-text{
-      font-size: 10px;
-      letter-spacing: 2px;
-    }
+   
 
-    .contactWrapper .formContact, input, textarea {
-      width: 60px;
-      margin: 2%;
-    }
-
-
-    .formButton {
-      width: 99%;
-    }
   }
+

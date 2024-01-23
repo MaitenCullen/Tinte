@@ -267,30 +267,39 @@ li{
         color: #00ffe0;
         font-size: 1rem;
     }
-      
-}
-
-@media screen and (max-width: 350px) {
-    .nameDiv{
+    .homeDiv{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-    }
-    h2,h3,h4{
-        line-height: 25px;
-    }
-    h3, h4{
-        line-height: 40px;
-        font-size: 12px;
-        letter-spacing: 5px;
-    }
-    
-    h2{
-        font-weight: 700;
-        font-size: 14px;
-        letter-spacing: 4spx;
-    }
-    
+        justify-content: center;
+        padding: 20px;
+        .divText{
+            flex: 1;
+            align-items: center;
+            padding:0;
+            word-spacing: 0;
+            h2{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            h3{
+                font-size: 1.3rem;
+                text-align: justify;
+                word-spacing: 0;
+                text-justify: inter-word;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+        .divImg{
+            flex: 1;
+            padding: 0;
+            img{
+                width: 100%;
+                height: auto; 
+            }
+        }
+     }
 }
+
+

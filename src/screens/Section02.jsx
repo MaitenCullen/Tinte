@@ -12,7 +12,7 @@ export const Section02 = () => {
   console.log(theme, "theme about")
   const [t, i18n] = useTranslation("global");
   return (
-    <section className=''>
+    <section className='section-copas'>
        {theme === 'dark' ? <img  src={copaN} alt='imagen central' /> : <img  src={copaV} alt='imagen central' /> }
     </section>
 

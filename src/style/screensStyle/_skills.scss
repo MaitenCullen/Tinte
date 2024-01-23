@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    width: 100%;
     padding: 20px;
 
 }
@@ -38,15 +38,21 @@
     text-align: center;
 }
 
+.carousel-root{
+    width: 100%;
+}
 
 .carousel {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+    max-width: 100%;
     .slide {
         width:60px;
-        height: 100%;
+        margin: 0 10px;
+        height: 50px;
         padding: 0 10px; 
         display: flex;
         align-items: center;
@@ -61,7 +67,7 @@
 }
 
 .carousel .carousel-slider {
-    max-width: 90%; 
+    max-width: 100%; 
     margin: 0 auto;
 
 }
