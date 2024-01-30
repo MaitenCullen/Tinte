@@ -9,9 +9,6 @@
     width: 90%;
     display: flex;
 }
-.unLimited {
-    height: 300px;
-    border-radius: 8px; }
 
 
  .cardBox {
@@ -26,8 +23,6 @@
 
  .card {
     position: absolute;
-    width: 97%;
-    height: 97%;
     background-color: #000000;
     border-radius: 20px;
     z-index: 5;
@@ -43,7 +38,7 @@
 
 
   .card .content p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 25px;
     letter-spacing: 6px;
     font-weight: 500;

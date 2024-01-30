@@ -27,7 +27,6 @@ export const CardProjects = () => {
             <p className="title">{project.project}</p>
             <p className="text">{t(`proyectos.${project.description}`)} </p>
             {project.video ? <p className="text"> <a className='Unlimited ' href="https://ibb.co/zFcrZTD">LINK</a></p> : null}
-            <p className="textTechnologies">{project.technologies}</p>
           </a>
         </div>
       ))}

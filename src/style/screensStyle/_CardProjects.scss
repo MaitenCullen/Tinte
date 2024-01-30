@@ -11,13 +11,12 @@
     h1{
         text-align: center;
         margin: 0 auto;
-        padding: 40px 0;
+        padding: 10px 0;
         font-family:$titleFont;
-        color: $red;
         text-transform: uppercase;
         letter-spacing: 6px;
-        font-weight: 500;
-        font-size: 2rem;
+        font-weight: 600;
+        font-size: 2.5rem;
     }
  }
  .divPoject{
@@ -39,18 +38,6 @@
       font-size: 1.5rem;
     }
  }
- 
-
-
-//  #light .card {
-//   background-color: rgb(255 255 255 / 91%);
-//   border-bottom: 2px solid $violet;
-//  }
- 
-
-
- .material-icons.md-36 { font-size: 36px; }
- 
  
 
  
@@ -95,47 +82,31 @@
  
    .text {
      margin: 0 auto;
-     font-size: 16px;
+     font-size: 1rem;
      text-align: center;
-     margin-top: 20px;
-     color: black; //Cambiar
-     font-weight: 700;
+     color: $red; //Cambiar
+     font-weight: 500;
      letter-spacing: 1px;
      opacity: 0;
      max-height: 0;
      transition: all 0.3s ease;
      font-family: $fontGeneric;
    }
- 
-   .textTechnologies {
-     width: 100%;
-     margin: 0 auto;
-     text-align: center;
-     font-size: 13px;
-     margin-top: 20px;
-     color: $violet;
-     font-weight: 500;
-     letter-spacing: 2px;
-     opacity: 0;
-     max-height: 0;
-     font-family: $fontGeneric;
-     transition: all 0.3s ease;
-   }
+
  
    .icon {
      margin: 0 auto;
      width: 100%;
-     height: 80px;
      max-width: 80px;
-     background: linear-gradient(100deg, rgba(255, 127, 41, 0.671) 3%, #ff40ef 40%, rgba(231, 0, 189, 0.466) 80%);
-     border-radius: 100%;
      display: flex;
      justify-content: center;
      align-items: center;
      color: white;
      transition: all 0.8s ease;
-     background-position: 0px;
-     background-size: 200px;
+     img{
+      margin-bottom: 10px;
+     }
+
    }
  
    &:hover {
@@ -144,7 +115,6 @@
      .title,
      .text,
      .textTechnologies,
-     .Unlimited,
      .animate{
        transition: all 0.3s ease;
        opacity: 1;
@@ -171,8 +141,7 @@
       height: 270px;
    
       .text,
-      .textTechnologies,
-      .Unlimited {
+      .textTechnologies {
         transition: all 0.5s ease;
         opacity: 1;
         max-height: 40px;

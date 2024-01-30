@@ -26,7 +26,7 @@
         font-family: $titleFont;
         font-weight: 600;
         line-height: 60px;
-        font-size: 2rem;
+        font-size: 2.5rem;
         letter-spacing: 6px;
     }
     p{
@@ -35,6 +35,9 @@
         line-height: 50px;
         font-size: 1.5rem;
         letter-spacing: 6px;
+    }
+    div{
+        margin-bottom: 30px;
     }
 }
 
