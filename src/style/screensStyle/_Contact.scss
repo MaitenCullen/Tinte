@@ -7,13 +7,17 @@
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    h1{
+    div{
+      display: flex;
+      align-items: center;
+    }
+    h1,h2{
       font-size: 3rem;
       font-family: $titleFont;
     }
-    h3{
-      font-size: 1.5rem;
-      font-family: $fontGeneric;
+    h2{
+      color: $redClaro;
+      margin-left: 15px;
     }
     h3{
       font-size: 1.2rem;
@@ -27,8 +31,7 @@
     font-family:$titleFont;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 500;
-
+    font-weight: 600;
   }
   #light .sectionHeader{
     color:black; //Cambiar
@@ -47,32 +50,38 @@
   
   /* Left contact page */
   .formContact {
-    font-family: $titleFont;
+    font-family: $fontGeneric;
     font-weight: 400;
     display: flex;
     flex-direction: column;
     align-items: center;
+    input, textarea {
+      width: 450px;
+      margin: 10px;
+      height: 40px;
+      border: 1px solid $white;
+      border-radius: 5px;
+      padding: 5px;
+      letter-spacing: 1px;
+      background: transparent;
+      color: $redClaro;
+       :focus-visible {
+        border: 1px solid $redClaro;
+      }
+    }
+    textarea {
+      height: 200px;
+    }
   }
-  .formContact input{
-    width: 500px;
-    height: 30px;
-    background: bottom;
-  }
-  .formControl, input, textarea {
-    width: 500px;
-    margin: 5px;
-    height: 200px;
-    border: 1px solid $white;
-    border-radius: 5px;
-    padding: 5px;
-    letter-spacing: 1px;
-    background: bottom;
-    color: $redClaro;
-  }
+ 
 
-  #light .formControl,
-  textarea {
+  
+  #light .formControl, #light input, #light textarea {
     border: 1px solid $redClaro; //Cambiar
+    color: $violet;
+    :focus-visible {
+      border: 1px solid $redClaro;
+    }
   }
 
 
@@ -82,11 +91,18 @@
   @media screen and (max-width: 850px) {
     #contact{
       padding: 20px;
+      div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
       h1{
         font-size: 2rem;
       }
-      h3{
-        font-size: 1.2rem;
+      h2{
+        font-size: 2rem;
+        margin: 0;
       }
       h3{
         font-size: 1rem;
@@ -101,7 +117,6 @@
     }  
   
     .contactWrapper .formControl,input, textarea {
-      margin: 3%;
       width: 280px;
     }
     .div-img-contact{
@@ -120,7 +135,6 @@
     }
 
    .contactWrapper .formControl,input, textarea {
-      margin: 3%;
       width: 250px;
     }
   

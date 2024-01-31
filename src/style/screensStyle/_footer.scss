@@ -21,6 +21,8 @@
                 font-size: 2rem;
                 font-family: $fontGeneric;
                 text-decoration:none ;
+                color: $switch;
+                font-weight: 500;
             }
         }
         
@@ -45,6 +47,14 @@
       align-items: center;
       padding: 0 40px;
     }
+  }
+  #light .footer-container, .div-lista {
+    ul{
+      a{
+        color: $darkRed;
+      }
+    }
+
   }
   #light .footer, #light .footer-container, #light .div-contact {
     background-color: $switch;

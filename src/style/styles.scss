@@ -8,6 +8,7 @@
 @import './screensStyle/Services';
 @import  './screensStyle/Work';
 @import  './screensStyle/footer';
+@import './screensStyle/ButtonD';
 
 * {
     margin: 0px;
@@ -113,25 +114,6 @@ background-color: $backgoundLight;
     background-color: $violet;
   }
 
-  .button{
-      border-radius: 50px;
-      padding: 15px;
-      font-size: 2rem;
-      font-weight: 600;
-      font-family: $fontButton;
-      border: 0;
-      color: $white;
-      background-color: $red;
-      cursor: pointer;
-
-       &.violet{
-        background-color: $switch;
-      }
-      &.yellow{
-        background-color: $redClaro;
-      }
-  }
-  
   @media screen and (max-width: 849px) {
     .switch {
       display: flex;

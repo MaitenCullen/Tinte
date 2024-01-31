@@ -10,6 +10,7 @@ import copa7 from "/copa7.png"
 import copa8 from "/copa8.png"
 import { Button } from '../components/Button'
 import { ThemeContext } from '../App'
+import ButtonAnimated from '../components/ButtonAnimated'
 
 export const About = () => {
   const {theme} = useContext(ThemeContext);
@@ -22,7 +23,7 @@ export const About = () => {
           <h2 className='title' >{t('header.TITULO')}</h2>
           <h3 className='title' >{t("header.TEXTO")}</h3> 
         </div>
-          <Button text="Inicia tu proyecto" className='violet'/>
+          <ButtonAnimated text="Inicia tu proyecto" className={theme === 'dark' ? 'red' : 'darkRed'}/>
       </div>
       <div className='divImg'>
         {theme === 'dark' ? <img  src={copa7} alt='imagen central' /> : <img  src={copa5} alt='imagen central' /> }

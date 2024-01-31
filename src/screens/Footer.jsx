@@ -30,9 +30,9 @@ import { Button } from '../components/Button';
     <div className="footer-container">
         <div className='div-lista'>
             <ul>
-                <a>Servicios</a>
-                <a>Nosotr@s</a>
-                <a>Contactanos</a>
+                <a href='#servicios'>Servicios</a>
+                <a href='#nosotros'>Nosotr@s</a>
+                <a href='#contact'>Contactanos</a>
             </ul>
         </div>
             <div className='div-contact'>

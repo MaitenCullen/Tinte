@@ -32,14 +32,12 @@
     color: $white;
 }
 #light h3{
-    color: $violet;
+    color: $backgroundDark;
 }
 #dark h3{
     color: $white;
 }
-#light h4{
-    color: $violet;
-}
+
 #dark h4{
     color: $white;
 }
@@ -71,7 +69,7 @@
     margin-bottom: 20px;
     & h4{
         font-size: 1.5rem;
-        line-height: 30px;
+        line-height: 50px;
         font-family: $fontGeneric;
         letter-spacing: 6px;
     }
@@ -89,8 +87,10 @@
     }
 }
 #light .div-title-services h3{
-    background-color: $switch;  
+    background-color: $switch; 
+    color: $white; 
 }
+
 .container-lista{
     display: flex;
     flex-direction: column;
@@ -104,18 +104,6 @@
     padding: 5px;
 }
 
-.div-precios{
-    padding: 5px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family:$fontGeneric;
-    p{
-        font-size: 1rem;
-        letter-spacing: 4px;
-    }
-}
 
 @media(max-width:850px){
 

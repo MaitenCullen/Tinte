@@ -1,0 +1,104 @@
+$gradient1: rgba(0, 0, 0, 0.7);
+$gradient2: rgba(220, 220, 220, 1);
+
+
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: $fontButton;
+    border: none;
+    outline: none;
+
+  svg {
+    position: absolute;
+
+    rect {
+      // stroke: #EC0033;
+      stroke-width: 4;
+      stroke-dasharray: 353, 0;
+      stroke-dashoffset: 0;
+      transition: all 800ms ease;
+    }
+  }
+
+  span {
+    background: linear-gradient(to left, rgba(229, 108, 98, 1) 0%, rgba(190, 137, 178, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &:hover {
+    svg rect {
+      stroke-width: 4;
+      stroke-dasharray: 196, 543;
+      stroke-dashoffset: 437;
+    }
+  }
+}
+
+
+.custom-button {
+    color: $white;
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+    border:2px solid transparent;
+    font-family: $fontButton;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: $red;
+    &:hover {
+      color: $redClaro;
+      span {
+        transform: translateY(0) scale(2);
+      }
+    }
+    &.violet {
+        background-color: $switch;
+    }
+    &.yellow{
+        background-color: $redClaro;
+      }
+    &.darkViolet{
+    background-color: $backgroundDarkViolet;
+    }
+    &.darkRed{
+        background-color: $darkRed;
+    }
+    span {
+      position: absolute;
+      width: 20%;
+      height: 100%;
+      background-color: $backgroundDarkViolet;
+      transform: translateY(150%);
+      border-radius: 50%;
+      left: calc((var(--n) - 1) * 25%);
+      transition: 0.7s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
+    }
+  
+    span:nth-child(1) { --n: 1; }
+    span:nth-child(2) { --n: 2; }
+    span:nth-child(3) { --n: 3; }
+    span:nth-child(4) { --n: 4; }
+    span:nth-child(5) { --n: 5; }
+    span:nth-child(6) { --n: 6; }
+    span:nth-child(7) { --n: 7; }
+  }
+  

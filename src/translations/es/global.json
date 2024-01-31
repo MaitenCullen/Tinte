@@ -28,7 +28,8 @@
         "FIDEL-CONSTRUCCIONES":"Ingenieria Civil construcciones"
     },
     "contacto":{
-        "CONTACTO":"Trabajemos juntos",
+        "CONTACTO":"Trabajemos",
+        "CONTACTO1":"Juntos",
         "IDEA":"¿Tienes una idea genial que quieras llevar a cabo?",
         "IDEA-CONTACTO":"Contáctanos y hagamos realidad tu proyecto",
         "INPUT-NOMBRE":"Nombre completo",

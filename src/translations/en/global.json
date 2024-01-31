@@ -28,7 +28,8 @@
         "FIDEL-CONSTRUCCIONES":"Civil Engineering constructions"
     },
     "contacto":{
-        "CONTACTO":"Let's work together",
+        "CONTACTO":"Let's work",
+        "CONTACTO1":"together",
         "IDEA":"Do you have a great idea that you want to realize?",
         "IDEA-CONTACTO": "Contact us and let's make your project a reality",
         "INPUT-NOMBRE":"Full Name",

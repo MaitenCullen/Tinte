@@ -14,6 +14,7 @@ import copaN from "/copaN.png"
 import copaV from "/copaV.png"
 import { ThemeContext } from '../App';
 import { Button } from '../components/Button';
+import { ButtonDegrade } from '../components/ButtonDegrade';
 
 
 
@@ -50,7 +51,10 @@ const contactDates = (event) => {
   return (
 
 <section id="contact">
-  <h1 className="sectionHeader">{t('contacto.CONTACTO')}</h1>
+  <div>
+      <h1 className="sectionHeader">{t('contacto.CONTACTO')}</h1>
+      <h2 className="sectionHeader">{t('contacto.CONTACTO1')}</h2>
+  </div>
   <h3 className="sectionHeader">{t('contacto.IDEA')}</h3>
   <h3 className="sectionHeader">{t('contacto.IDEA-CONTACTO')}</h3>
   <div className="contactWrapper"> 
@@ -67,7 +71,7 @@ const contactDates = (event) => {
             <div>
             <textarea className="formControl"  name="consulta" rows="5" cols="28" onChange={userContact} placeholder={t('contacto.INPUT-TEXTO')} required></textarea>
             </div>
-            <Button text="Enviar"/>
+            <ButtonDegrade/>
         </form> 
       </div> : <div> <h2>{t('contacto.TEXT-CONFIRMACION')}</h2></div> 
        }

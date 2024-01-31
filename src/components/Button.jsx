@@ -3,7 +3,7 @@ import React from 'react'
 export function Button(props){
     return (
         <>
-         <button className={`button ${props.className || ''}`}>{props.text}</button>
+         <button className={`button bgc ${props.className || ''}`}>{props.text}</button>
         </>
     )
 }
