@@ -15,6 +15,10 @@
     "project":{
         "PROYECTOS":"Some Projects"
     },
+    "nosotros":{
+        "NOSOTROS":"About us",
+        "DESCRIPCION":"Because we are passionate about what we do, design, technology and web development. We come to you to offer you all those nice things you are looking for in your life to transform and make your projects come true. By working as a team with you we will make your ideas possible. We want the whole work process to meet your expectations, to enhance your brand and business. We hope that from all the work you get a functional final product and a positive experience that you will remember in time."
+    },
     "proyectos":{
         "BETTY": "Stop! only for people over 18 years old",
         "LAPRINSUMOS":"3D printing web catalog",
@@ -47,7 +51,11 @@
         "TEXTO-0":"We love to develop and program. Our specialty is creating custom websites, tailored to your needs and goals. As a team we seek to implement the latest technologies to build functional, scalable, attractive and fully responsive websites. Whether you want to grow your brand, start your online presence or update your existing site, we offer customized solutions that will push your digital presence.",
         "DISEÑO-CREATIVO":"Creative UI/UX Design",
         "TEXTO-1":"Our team of designers is dedicated to creating impactful digital experiences. From designing visually pleasing user interfaces (UI) to creating intuitive user experiences (UX), we make sure your users enjoy a fluid and memorable navigation on your website. We know that every project is unique! That's why we work closely with you to capture the essence of your brand and transform it into a visually appealing and user-friendly experience.",
-        "ESTRAEGIAS-DIGITALES":"Estrategias Digitales Integradas",
+        "ESTRAEGIAS-DIGITALES":"Integrated Digital Strategies",
         "TEXTO-2":"We understand that likes make the difference! That's why we optimize your online presence through integrated digital strategies. From optimizing for mobile devices to developing SEO strategies, we make sure your website is easily accessible and visible to your target audience. In addition, we manage and boost your social media profiles. We think together effective campaigns and engaging content to connect with your audience."
+    },
+    "button":{
+        "CONTACTO":"Contact",
+        "INICIAR":"start your project"
     }
 }

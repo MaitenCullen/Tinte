@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export function ButtonDegrade(props) {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
         <button className="btn">
@@ -13,7 +15,7 @@ export function ButtonDegrade(props) {
             </defs>
             <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="55"></rect>
             </svg>
-            <span>Contactanos</span>
+            <span>  {t('button.CONTACTO')}</span>
         </button>
     </>
   );

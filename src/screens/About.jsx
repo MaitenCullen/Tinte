@@ -23,7 +23,7 @@ export const About = () => {
           <h2 className='title' >{t('header.TITULO')}</h2>
           <h3 className='title' >{t("header.TEXTO")}</h3> 
         </div>
-          <ButtonAnimated text="Inicia tu proyecto" className={theme === 'dark' ? 'red' : 'darkRed'}/>
+          <ButtonAnimated text={t('button.INICIAR')} className={theme === 'dark' ? 'red' : 'darkRed'}/>
       </div>
       <div className='divImg'>
         {theme === 'dark' ? <img  src={copa7} alt='imagen central' /> : <img  src={copa5} alt='imagen central' /> }

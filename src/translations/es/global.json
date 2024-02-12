@@ -15,6 +15,10 @@
     "project":{
         "PROYECTOS":"Algunos Proyectos"
     },
+    "nosotros":{
+        "NOSOTROS":"Nosotras",
+        "DESCRIPCION":"Porque somos apasionadas de lo que hacemos, el diseño, la tecnología y el desarrollo web. Llegamos a vos para ofrecerte todas esas cosas lindas que buscas en tu vida para que transformen y hagan realidad tus proyectos. A través de trabajar en equipo con vos vamos a hacer posible tus ideas. Buscamos que todo el proceso de trabajo llegue a cumplir tus expectativas, que potencie tu marca o negocio. Esperamos que de todo el trabajo te lleves además de un producto final funcional, una experiencia positiva que recuerdes en el tiempo."
+    },
     "proyectos":{
         "BETTY": "Stop! solo para mayores de 18 años",
         "LAPRINSUMOS":"Web catalogo de impresión 3D",
@@ -49,5 +53,9 @@
         "TEXTO-1":"Nuestro equipo de diseñadores se dedica a crear experiencias digitales impactantes. Desde el diseño de interfaces de usuario (UI) estéticamente agradables hasta la creación de experiencias de usuario (UX) intuitivas, nos aseguramos de que tus usuarios disfruten de una navegación fluida y memorable en tu sitio web.Sabemos que cada proyecto es unico! Por eso trabajamos en conjunto con vos  para capturar la esencia de tu marca y transformarla en una experiencia visualmente atractiva y fácil de usar.",
         "ESTRAEGIAS-DIGITALES":"Estrategias Digitales Integradas",
         "TEXTO-2":"Entendemos que muchas veces los likes hacen la diferencia! Por ello optimizamos tu presencia en línea mediante estrategias digitales integrales. Desde la optimización para dispositivos móviles hasta el desarrollo de estrategias de SEO, nos aseguramos de que tu sitio web sea fácilmente accesible y visible para tu audiencia objetivo. Además, gestionamos y potenciamos tus perfiles en redes sociales, pensamos en conjunto campañas efectivas y contenido atractivo para fortalecer tu conexión con la audiencia manteniendo una misma estética."
+    },
+    "button":{
+        "CONTACTO":"Contactanos",
+        "INICIAR":"Inicia tu proyecto"
     }
 }

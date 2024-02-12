@@ -21,13 +21,13 @@ export const Work = () => {
         <div className='div-work-text'>
           <div>
             <h4 className='work-h4'>
-                  Nosotros
+            {t('nosotros.NOSOTROS')}
               </h4>
               <p className='work-p'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a hic dolorum perspiciatis voluptatibus tenetur suscipit consequuntur animi laborum explicabo, minus blanditiis quibusdam vitae! Aliquid omnis alias necessitatibus ab ipsa!
+              {t('nosotros.DESCRIPCION')}
               </p>
           </div>  
-          <ButtonAnimated text="Contactanos" className='violet'/>
+          <ButtonAnimated text={t('button.CONTACTO')} className='violet'/>
             {/* <Button text='Contactanos' className=''/> */}
         </div>
         <div>

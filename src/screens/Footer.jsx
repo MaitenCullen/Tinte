@@ -30,9 +30,9 @@ import { Button } from '../components/Button';
     <div className="footer-container">
         <div className='div-lista'>
             <ul>
-                <a href='#servicios'>Servicios</a>
-                <a href='#nosotros'>Nosotr@s</a>
-                <a href='#contact'>Contactanos</a>
+                <a href='#servicios'>{t('navbar.SERVICIOS')} </a>
+                <a href='#nosotros'>{t('nosotros.NOSOTROS')} </a>
+                <a href='#contact'>{t('navbar.CONTACT')} </a>
             </ul>
         </div>
             <div className='div-contact'>
